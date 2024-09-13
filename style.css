@@ -1,0 +1,94 @@
+html, 
+body, 
+*{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+body{
+    background-color: rgb(36, 168, 146)
+}
+
+li{
+    color:white
+}
+
+.first {
+    color:purple
+}
+
+#second {
+    color:blue
+}
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+.post-img{
+   
+    width: 100%;
+    height: 50%;
+    /*object fit fixes aspect ratio of image if needed */
+    object-fit: cover;
+}
+
+.post{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height:500px;
+    width: 350px;
+    background-color: rgb(137, 255, 210);
+    margin-top:350px;
+    padding: 0px;
+}
+.post-desc {
+    text-align: center;
+    align-content: center;
+
+}
+.posttwo-img{
+    width: 100%;
+    height: 50%;
+    /*object fit fixes aspect ratio of image if needed */
+    object-fit: cover;
+}
+.posttwo{
+    text-align: center;
+    height:500px;
+    width: 350px;
+    background-color: paleturquoise;
+    margin-top:350px;
+    padding: 0px;
+}
+.posttwo-desc {
+    text-align: center;
+    align-content: center;
+}
+
+.blog-img{
+    width: 100%;
+    height: 50%;
+    /*object fit fixes aspect ratio of image if needed */
+    object-fit: cover;
+}
+.blog{
+    text-align: center;
+    height:500px;
+    width: 350px;
+    background-color: cyan;
+    margin-top:350px;
+    padding: 0px;
+}
+.blog-desc {
+    text-align: center;
+    align-content: center;
+}
